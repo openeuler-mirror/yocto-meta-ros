@@ -18,7 +18,7 @@ ROS_CN = "dolly"
 ROS_BPN = "dolly_ignition"
 
 ROS_BUILD_DEPENDS = " \
-    ${ROS_UNRESOLVED_DEP-ros-ign-gazebo} \
+    ros-ign-gazebo \
 "
 
 ROS_BUILDTOOL_DEPENDS = " \
@@ -26,15 +26,15 @@ ROS_BUILDTOOL_DEPENDS = " \
 "
 
 ROS_EXPORT_DEPENDS = " \
-    ${ROS_UNRESOLVED_DEP-ros-ign-gazebo} \
+    ros-ign-gazebo \
 "
 
 ROS_BUILDTOOL_EXPORT_DEPENDS = ""
 
 ROS_EXEC_DEPENDS = " \
-    ${ROS_UNRESOLVED_DEP-ros-ign-bridge} \
-    ${ROS_UNRESOLVED_DEP-ros-ign-gazebo} \
     dolly-follow \
+    ros-ign-bridge \
+    ros-ign-gazebo \
     ros2launch \
     rviz2 \
 "

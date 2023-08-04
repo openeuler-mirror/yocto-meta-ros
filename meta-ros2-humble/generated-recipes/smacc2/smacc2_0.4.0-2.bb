@@ -17,8 +17,8 @@ ROS_CN = "SMACC2"
 ROS_BPN = "smacc2"
 
 ROS_BUILD_DEPENDS = " \
-    ${ROS_UNRESOLVED_DEP-liblttng-ust-dev} \
     boost \
+    lttng-ust \
     rcl \
     rclcpp \
     rclcpp-action \
@@ -33,7 +33,7 @@ ROS_BUILDTOOL_DEPENDS = " \
 "
 
 ROS_EXPORT_DEPENDS = " \
-    ${ROS_UNRESOLVED_DEP-liblttng-ust-dev} \
+    lttng-ust \
     rcl \
     rclcpp \
     rclcpp-action \
@@ -46,8 +46,8 @@ ROS_EXPORT_DEPENDS = " \
 ROS_BUILDTOOL_EXPORT_DEPENDS = ""
 
 ROS_EXEC_DEPENDS = " \
-    ${ROS_UNRESOLVED_DEP-liblttng-ust-dev} \
     boost \
+    lttng-ust \
     rcl \
     rclcpp \
     rclcpp-action \

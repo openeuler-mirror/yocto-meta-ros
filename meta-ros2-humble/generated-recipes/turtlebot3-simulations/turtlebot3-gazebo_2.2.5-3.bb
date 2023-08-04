@@ -19,7 +19,7 @@ ROS_CN = "turtlebot3_simulations"
 ROS_BPN = "turtlebot3_gazebo"
 
 ROS_BUILD_DEPENDS = " \
-    ${ROS_UNRESOLVED_DEP-gazebo-ros-pkgs} \
+    gazebo-ros-pkgs \
     geometry-msgs \
     nav-msgs \
     rclcpp \
@@ -32,7 +32,7 @@ ROS_BUILDTOOL_DEPENDS = " \
 "
 
 ROS_EXPORT_DEPENDS = " \
-    ${ROS_UNRESOLVED_DEP-gazebo-ros-pkgs} \
+    gazebo-ros-pkgs \
     geometry-msgs \
     nav-msgs \
     rclcpp \
@@ -43,7 +43,7 @@ ROS_EXPORT_DEPENDS = " \
 ROS_BUILDTOOL_EXPORT_DEPENDS = ""
 
 ROS_EXEC_DEPENDS = " \
-    ${ROS_UNRESOLVED_DEP-gazebo-ros-pkgs} \
+    gazebo-ros-pkgs \
     geometry-msgs \
     nav-msgs \
     rclcpp \

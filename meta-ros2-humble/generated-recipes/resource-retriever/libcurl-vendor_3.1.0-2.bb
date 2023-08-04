@@ -19,8 +19,8 @@ ROS_CN = "resource_retriever"
 ROS_BPN = "libcurl_vendor"
 
 ROS_BUILD_DEPENDS = " \
-    ${ROS_UNRESOLVED_DEP-file} \
     curl \
+    file \
 "
 
 ROS_BUILDTOOL_DEPENDS = " \
